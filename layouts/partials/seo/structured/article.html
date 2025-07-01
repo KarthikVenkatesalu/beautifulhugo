@@ -16,7 +16,7 @@
   "mainEntityOfPage" : "{{ .Permalink }}",
   "publisher" : {
     "@type": "Organization",
-    "name" : "{{ .Site.BaseURL }}",
+    "name" : "{{ .Site.Home.Permalink }}",
     "logo" : {
         "@type" : "ImageObject",
         "url" : "{{ .Site.Params.logo | absURL }}",
